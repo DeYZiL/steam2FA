@@ -1,0 +1,4 @@
+echo %SECRET%
+var SteamTotp = require('steam-totp'); 
+[[CODE]] = SteamTotp.generateAuthCode([[SECRET]]);
+console.log('Код 2FA: '+ ('CODE'));
